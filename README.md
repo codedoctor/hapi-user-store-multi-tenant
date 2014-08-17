@@ -15,21 +15,24 @@ Plugin exposes models/methods for identity management. Will be documented upon r
 ## See also
 
 * [hapi-auth-bearer-mw](https://github.com/codedoctor/hapi-auth-bearer-mw)
-* [hapi-user-store-multi-tenant](https://github.com/codedoctor/hapi-user-store-multi-tenant)
+* [hapi-loggly](https://github.com/codedoctor/hapi-loggly)
+* [hapi-mandrill](https://github.com/codedoctor/hapi-mandrill)
 * [hapi-mongoose-db-connector](https://github.com/codedoctor/hapi-mongoose-db-connector)
+* [hapi-oauth-store-multi-tenant](https://github.com/codedoctor/hapi-oauth-store-multi-tenant)
 * [hapi-routes-authorization-and-session-management](https://github.com/codedoctor/hapi-routes-authorization-and-session-management)
+* [hapi-routes-oauth-management](https://github.com/codedoctor/hapi-routes-oauth-management)
 * [hapi-routes-roles](https://github.com/codedoctor/hapi-routes-roles)
 * [hapi-routes-status](https://github.com/codedoctor/hapi-routes-status)
 * [hapi-routes-users-authorizations](https://github.com/codedoctor/hapi-routes-users-authorizations)
-* [hapi-routes-oauth-management](https://github.com/codedoctor/hapi-routes-oauth-management)
 * [hapi-routes-users](https://github.com/codedoctor/hapi-routes-users)
+* [hapi-user-store-multi-tenant](https://github.com/codedoctor/hapi-user-store-multi-tenant)
 
 and additionally
 
-* [mongoose-user-store-multi-tenant](https://github.com/codedoctor/mongoose-user-store-multi-tenant)
+* [api-pagination](https://github.com/codedoctor/api-pagination)
 * [mongoose-oauth-store-multi-tenant](https://github.com/codedoctor/mongoose-oauth-store-multi-tenant)
 * [mongoose-rest-helper](https://github.com/codedoctor/mongoose-rest-helper)
-* [api-pagination](https://github.com/codedoctor/api-pagination)
+* [mongoose-user-store-multi-tenant](https://github.com/codedoctor/mongoose-user-store-multi-tenant)
 
 
 ## Contributing
