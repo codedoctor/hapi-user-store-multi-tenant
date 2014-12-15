@@ -10,9 +10,7 @@ ObjectId = mongoose.Schema.Types.ObjectId
 
 module.exports.register = (plugin, options = {}, cb) ->
   defaults =
-    mongodbUrl: null
     autoIndex: false
-    needConnection: false 
 
   options = Hoek.applyToDefaults defaults, options
 
