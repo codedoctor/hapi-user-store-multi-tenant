@@ -4,7 +4,7 @@
 [![Dependency Status](https://gemnasium.com/codedoctor/hapi-user-store-multi-tenant.svg)](https://gemnasium.com/codedoctor/hapi-user-store-multi-tenant)
 [![NPM Downloads](http://img.shields.io/npm/dm/hapi-user-store-multi-tenant.svg)](https://www.npmjs.org/package/hapi-user-store-multi-tenant)
 [![Issues](http://img.shields.io/github/issues/codedoctor/hapi-user-store-multi-tenant.svg)](https://github.com/codedoctor/hapi-user-store-multi-tenant/issues)
-[![HAPI 6.0](http://img.shields.io/badge/hapi-6.0-blue.svg)](http://hapijs.com)
+[![HAPI 8.0](http://img.shields.io/badge/hapi-8.0-blue.svg)](http://hapijs.com)
 [![API Documentation](http://img.shields.io/badge/API-Documentation-ff69b4.svg)](http://coffeedoc.info/github/codedoctor/hapi-user-store-multi-tenant)
 
 (C) 2014 Martin Wawrusch

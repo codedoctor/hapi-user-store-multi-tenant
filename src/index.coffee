@@ -8,7 +8,7 @@ mongooseIdentityStore = require 'mongoose-user-store-multi-tenant'
 Mixed = mongoose.Schema.Types.Mixed
 ObjectId = mongoose.Schema.Types.ObjectId
 
-module.exports.register = (plugin, options = {}, cb) ->
+module.exports.register = (server, options = {}, cb) ->
   defaults =
     autoIndex: false
 
@@ -48,9 +48,9 @@ module.exports.register = (plugin, options = {}, cb) ->
     models[n] = v 
 
 
-  plugin.expose 'userStore', userStore
-  plugin.expose 'methods', methods
-  plugin.expose 'models', models
+  server.expose 'userStore', userStore
+  server.expose 'methods', methods
+  server.expose 'models', models
 
   cb()
 

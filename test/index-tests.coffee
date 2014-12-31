@@ -19,9 +19,8 @@ describe 'WHEN index has been loaded', ->
       return cb err if err
 
       should.exist server
-      server.should.have.property "pack"
 
-      myPlugin = server.pack.plugins['hapi-user-store-multi-tenant']
+      myPlugin = server.plugins['hapi-user-store-multi-tenant']
       should.exist myPlugin
       myPlugin.should.have.property "userStore"
       myPlugin.should.have.property "models"
