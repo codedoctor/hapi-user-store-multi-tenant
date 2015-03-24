@@ -38,6 +38,7 @@ module.exports.register = (server, options = {}, cb) ->
         'entities'
         'admin'
         'roles'
+        'userProviders'
       ]
     #console.log "Exporting methods #{n}"
     methods[n] = userStore[n]

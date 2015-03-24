@@ -1,6 +1,6 @@
 {
   "name": "hapi-user-store-multi-tenant",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "private": false,
   "main": "lib/index.js",
   "repository": {
@@ -14,7 +14,7 @@
   "dependencies": {
     "boom": "2.6.1",
     "hoek": "2.10.0",
-    "mongoose-user-store-multi-tenant": "1.1.1",
+    "mongoose-user-store-multi-tenant": "1.1.2",
     "mongoose-plugins-created-by": "0.4.1",
     "mongoose-plugins-delete-paranoid": "0.2.0",
     "mongoose-plugins-tags-simple": "0.2.0",
